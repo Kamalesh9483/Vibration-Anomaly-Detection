@@ -3,7 +3,7 @@
 //#include <HTTPClient.h>
 #include <WiFiUdp.h>
 #include <ArduinoJson.h>
-
+#include <HardwareSerial.h>
 #define STASSID "JioFiber 1"
 #define STAPSK "Dexiatoungjio"
 //
@@ -11,7 +11,7 @@ const char* ntpServer = "0.in.pool.ntp.org";
 const long  gmtOffset_sec = 16196;
 const int   daylightOffset_sec = 3600;
 
-    HardwareSerial Receiver(2);
+    HardwareSerial Receiver(1);
 //    String serverName = "http://192.168.29.212:8090/sensorData";
     const char* host = "192.168.29.212";
     unsigned int udpPort = 8090;
