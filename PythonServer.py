@@ -25,7 +25,7 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 # start TLS for security
 s.starttls()
 # Authentication
-s.login("kamalesh9483@gmail.com", "Dexiatoung123*")
+s.login("kamalesh9483@gmail.com", "password*")
   
 fields = ['Time', 'SensorVal'] 
 myFile = open('sensorData.csv', 'a', newline='')
