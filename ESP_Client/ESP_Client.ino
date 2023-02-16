@@ -4,8 +4,8 @@
 #include <WiFiUdp.h>
 #include <ArduinoJson.h>
 #include <HardwareSerial.h>
-#define STASSID "JioFiber 1"
-#define STAPSK "Dexiatoungjio"
+#define STASSID "ssid"
+#define STAPSK "password"
 //
 const char* ntpServer = "0.in.pool.ntp.org";
 const long  gmtOffset_sec = 16196;
